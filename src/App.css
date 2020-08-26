@@ -8,7 +8,7 @@ body {
   }
   
   a {
-    color: #e74c3c !important;
+    color: #3c47e7 !important;
   }
   
   button:focus {
@@ -33,7 +33,7 @@ body {
   }
   
   .recipe_buttons {
-    border: solid 2px #e74c3c;
+    border: solid 2px #3cb7e7;
     background: transparent;
     padding: 0.4rem 0.6rem;
     margin: 0 0.2rem;
@@ -44,7 +44,7 @@ body {
     margin-left: 0.7rem;
   }
   .recipe_buttons:hover {
-    background-color: #f44336;
+    background-color: #3cb7e7;
     
   }
 
@@ -153,7 +153,7 @@ body {
   }
   
   .active-recipe__button {
-    border: solid 2px #e74c3c;
+    border: solid 2px #3cb7e7;
     background: transparent;
     padding: 0.2rem 0.9rem;
     margin: 0 0.2rem;

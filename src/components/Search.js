@@ -5,7 +5,7 @@ import React  from 'react';
 const Search= props =>(
     <form onSubmit={props.getRecipe}>
         <input  type='text' name='recipeName' className='form__input'/>
-        <button className='btn  btn-outline-info m-2 form__input'>Search</button>
+        <button className='btn  btn-outline-info m-2'>Search</button>
     </form>
 );
  
