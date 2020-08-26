@@ -5,7 +5,7 @@ import App from '../App';
 import Recipe from './Recipe';
 
 const Router=()=>(
-    <BrowserRouter>
+    <BrowserRouter basename='/recipe-web-app'>
         <Switch>
             <Route path='/' component={App} exact/> {/* used exact for only '/' is considered for App component*/}
             <Route path='/recipe' component={Recipe}/>   {/*when this path will be hit then "Recipe" component will be rendered  */}
